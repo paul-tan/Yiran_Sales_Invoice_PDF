@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Yiran_Sales>
+            <version>0.0.1</version>
+        </Yiran_Sales>
+    </modules>
+
+    <global>
+        <models>
+            <sales>
+                <rewrite>
+                    <order_pdf_invoice>Yiran_Sales_Model_Order_Pdf_Invoice</order_pdf_invoice>
+                    <order_pdf_items_invoice_default>Yiran_Sales_Model_Order_Pdf_Items_Invoice_Default</order_pdf_items_invoice_default>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+</config>
